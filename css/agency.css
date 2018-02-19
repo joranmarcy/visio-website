@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -330,8 +330,10 @@ section h3.section-subheading {
   height: auto;
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  margin: 0 0 0px;
   right: 0;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -391,7 +393,7 @@ section h3.section-subheading {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 0 40px;
   }
 }
 .timeline {
