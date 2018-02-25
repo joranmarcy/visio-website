@@ -279,6 +279,16 @@ section {
     .img-fluid {
       width: 100%;
       height: auto;
+      transition: transform .5s;
+    }
+    .img-fluid:hover {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform:translateZ(0) scale(1.1); /* Safari and Chrome */
+      -moz-transform:scale(1.1); /* Firefox */
+      -ms-transform:scale(1.1); /* IE 9 */
+      -o-transform:translatZ(0) scale(1.1); /* Opera */
+      transform:translatZ(0) scale(1.1);
     }
     .portfolio-item {
         margin: 0 0 0px;
@@ -600,12 +610,12 @@ section#contact {
     :-moz-placeholder { /* Firefox 18- */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
        .heading-font;
        font-weight: 700;
-       color: @gray-lighter;
+       color: @gray;
     }
     :-ms-input-placeholder {
        .heading-font;
@@ -671,7 +681,7 @@ ul.social-buttons {
 
 .portfolio-modal {
     .modal-dialog{
-        margin: 0;
+        margin: 20px;
         height: 100%;
         width: auto;
     }

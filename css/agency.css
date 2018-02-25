@@ -328,6 +328,20 @@ section h3.section-subheading {
 #portfolio .img-fluid {
   width: 100%;
   height: auto;
+  transition: transform .5s;
+}
+#portfolio .img-fluid:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.1);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -ms-transform: scale(1.1);
+  /* IE 9 */
+  -o-transform: translatZ(0) scale(1.1);
+  /* Opera */
+  transform: translatZ(0) scale(1.1);
 }
 #portfolio .portfolio-item {
   margin: 0 0 0px;
@@ -622,14 +636,14 @@ section#contact :-moz-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #555555;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #eeeeee;
+  color: #555555;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -686,7 +700,7 @@ ul.social-buttons li a:active {
   outline: none;
 }
 .portfolio-modal .modal-dialog {
-  margin: 0;
+  margin: 20px;
   height: 100%;
   width: auto;
 }
