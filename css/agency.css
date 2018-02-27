@@ -5,7 +5,7 @@
  */
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
   color: #777777;
@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #8c9fb3;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -274,9 +274,9 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
   font-weight: 100;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -293,9 +293,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 75px;
     margin-bottom: 50px;
   }
