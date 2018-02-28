@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -29,5 +29,12 @@
             top: 100
         }
     })
+    // Scroll reveal calls
+    window.sr = ScrollReveal();
+    sr.reveal('.sr-icons', {
+      duration: 600,
+      scale: 0.3,
+      distance: '0px'
+    }, 200);
 
 })(jQuery); // End of use strict
