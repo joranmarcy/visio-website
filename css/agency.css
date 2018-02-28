@@ -70,7 +70,7 @@ h6 {
   background: rgba(255, 255, 255, 0.1);
 }
 .img-centered {
-  margin: 0 auto;
+  margin: 50px auto;
 }
 .bg-light-gray {
   background-color: #eeeeee;
@@ -249,12 +249,13 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/viaduc.jpg');
+  background-image: url('../img/header-bg.jpg');
   background-color: #657280;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-attachment: fixed;
+  text-shadow: 2px 2px 4px #000000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -315,6 +316,9 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
+}
+section .outro-heading {
+  text-shadow: 2px 2px 4px #111111;
 }
 @media (min-width: 768px) {
   section {
