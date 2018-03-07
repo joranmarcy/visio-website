@@ -305,6 +305,11 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+@media (min-width: 2000px) {
+  header {
+    background-image: url('../img/header-bg-full.jpg');
+  }
+}
 section {
   padding: 40px 0;
   display: flex;
@@ -664,6 +669,11 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #ffa89f;
+}
+@media (min-width: 2000px) {
+  section#contact {
+    background-image: url('../img/contact-image-full.jpg');
+  }
 }
 footer {
   padding: 25px 0;
